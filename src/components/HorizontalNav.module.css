@@ -1,0 +1,40 @@
+.nav {
+  font-size: 1.5rem;
+}
+
+.nav__list {
+  display: flex;
+  gap: 3.75rem;
+}
+
+.nav__link {
+  color: var(--primary);
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.nav__link--active {
+  text-decoration: underline;
+}
+
+.nav__link:hover {
+  color: var(--secondary);
+}
+
+@media screen and (max-width: 768px) {
+  .nav__list {
+    gap: 1rem;
+  }
+  .nav__link {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .nav__list {
+    gap: 0.625rem;
+  }
+  .nav__link {
+    font-size: 0.75rem;
+  }
+}
