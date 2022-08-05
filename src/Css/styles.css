@@ -49,14 +49,22 @@ h6 {
   isolation: isolate;
 }
 
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
 /* CSS variables */
 :root {
   --primary: hsl(0, 100%, 69%);
+  --secondary: hsl(244, 17%, 20%);
   --white: hsl(0, 0%, 100%);
   --black: hsl(0, 0%, 0%);
   --grey: hsl(0, 0%, 96%);
 
-  --max-width: 1440px;
+  --max-width: 1240px;
 
   font-family: Montserrat, sans-serif;
   font-size: 16px;
