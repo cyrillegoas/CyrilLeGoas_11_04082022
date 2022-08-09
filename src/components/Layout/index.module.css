@@ -4,7 +4,7 @@
   max-width: var(--max-width);
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1000px) {
   .wrapper {
     padding: 1.25rem;
   }
