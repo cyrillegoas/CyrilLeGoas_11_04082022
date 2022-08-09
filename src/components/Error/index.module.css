@@ -1,0 +1,43 @@
+.error {
+  padding: 10.5rem 0 10rem;
+  color: var(--primary);
+  text-align: center;
+}
+
+.error__code {
+  font-size: 18rem;
+  line-height: 0.9;
+  font-weight: bold;
+  margin-bottom: 4.125rem;
+}
+
+.error__text {
+  font-size: 2.25rem;
+  margin-bottom: 11.5rem;
+}
+
+.error__link {
+  font-size: 1.125rem;
+  color: var(--primary);
+}
+
+.error__link:hover {
+  color: var(--secondary);
+}
+
+@media screen and (max-width: 800px) {
+  .error__code {
+    font-size: 6rem;
+    line-height: 1;
+    margin-bottom: 0.7rem;
+  }
+
+  .error__text {
+    font-size: 1.125rem;
+    margin-bottom: 8.3rem;
+  }
+
+  .error__link {
+    font-size: 0.875rem;
+  }
+}
