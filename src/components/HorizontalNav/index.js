@@ -1,5 +1,5 @@
 import { Link, useLocation } from "react-router-dom";
-import styles from "./HorizontalNav.module.css";
+import styles from "./index.module.css";
 
 export const HorizontalNav = (props) => {
   let location = useLocation();

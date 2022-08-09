@@ -1,7 +1,7 @@
-import styles from "./Header.module.css";
+import styles from "./index.module.css";
 import { Link } from "react-router-dom";
-import { HorizontalNav } from "./HorizontalNav";
-import { ConditionalWrapper } from "./HelperComponents";
+import { HorizontalNav } from "../HorizontalNav";
+import { ConditionalWrapper } from "../HelperComponents";
 
 export const Header = (props) => {
   const navItems = [

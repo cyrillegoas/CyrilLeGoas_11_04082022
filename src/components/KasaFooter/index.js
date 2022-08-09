@@ -1,4 +1,4 @@
-import styles from "./KasaFooter.module.css";
+import styles from "./index.module.css";
 
 export const KasaFooter = () => (
   <footer className={styles.footer}>
