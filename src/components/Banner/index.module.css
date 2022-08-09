@@ -30,6 +30,9 @@
   .banner {
     grid-template-rows: 7rem;
   }
+  .banner__image {
+    border-radius: 10px;
+  }
 
   .banner__tagline {
     font-size: 1.5rem;
