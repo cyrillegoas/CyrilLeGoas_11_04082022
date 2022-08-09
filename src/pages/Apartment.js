@@ -1,1 +1,3 @@
-export const Apartment = (props) => <h1>Apartment</h1>;
+import { Layout } from "../components/Layout";
+
+export const Apartment = (props) => <Layout></Layout>;

@@ -1,1 +1,3 @@
-export const NotFound = (props) => <h1>ERROR 404</h1>;
+import { Layout } from "../components/Layout";
+
+export const NotFound = (props) => <Layout></Layout>;

@@ -1,1 +1,3 @@
-export const About = (props) => <h1>About</h1>;
+import { Layout } from "../components/Layout";
+
+export const About = (props) => <Layout></Layout>;
