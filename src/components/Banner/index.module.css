@@ -19,7 +19,19 @@
   color: var(--white);
   font-size: 3rem;
   font-weight: normal;
+  line-height: 1;
   display: grid;
   place-content: center;
   z-index: 1;
+  margin: 0 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .banner {
+    grid-template-rows: 7rem;
+  }
+
+  .banner__tagline {
+    font-size: 1.5rem;
+  }
 }
