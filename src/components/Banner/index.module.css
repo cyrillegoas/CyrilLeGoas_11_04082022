@@ -1,0 +1,25 @@
+.banner {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 14rem;
+  place-content: center;
+}
+.banner__image {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+  border-radius: 25px;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  filter: brightness(70%);
+}
+.banner__tagline {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+  color: var(--white);
+  font-size: 3rem;
+  font-weight: normal;
+  display: grid;
+  place-content: center;
+  z-index: 1;
+}
