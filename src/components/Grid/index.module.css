@@ -1,0 +1,11 @@
+.grid {
+  padding: 3.5rem 3.125rem;
+  border-radius: 25px;
+  background-color: var(--grey);
+}
+
+.grid__list {
+  display: grid;
+  gap: 3.125rem 3.75rem;
+  grid-template-columns: repeat(auto-fit, minmax(320px, auto));
+}
