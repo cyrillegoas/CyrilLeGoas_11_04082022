@@ -1,8 +1,6 @@
 import { useLocation, matchPath } from "react-router-dom";
 import { Header } from "../Header";
 import { KasaFooter } from "../KasaFooter";
-import { apartmentsData } from "../../apartmentsData";
-import { ApartmentsContext } from "../../ApartmentsContext";
 
 import styles from "./index.module.css";
 
@@ -21,9 +19,7 @@ export const Layout = ({ children }) => {
     <>
       <div className={styles.wrapper}>
         <Header logoPath="/images/kasa_logo.svg" />
-        <ApartmentsContext.Provider value={apartmentsData}>
-          <main className={styles[`main--${modifier}`]}>{children}</main>
-        </ApartmentsContext.Provider>
+        <main className={styles[`main--${modifier}`]}>{children}</main>
       </div>
       <KasaFooter />
     </>
