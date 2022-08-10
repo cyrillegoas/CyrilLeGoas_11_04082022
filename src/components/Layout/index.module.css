@@ -4,6 +4,20 @@
   max-width: var(--max-width);
 }
 
+.main--home {
+  padding-top: 3.9rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2.7rem;
+}
+
+.main--about {
+  padding-top: 2.75rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.9rem;
+}
+
 @media screen and (max-width: 1280px) {
   .wrapper {
     padding: 1.25rem;
