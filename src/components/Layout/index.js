@@ -20,7 +20,7 @@ export const Layout = ({ children }) => {
   return (
     <>
       <div className={styles.wrapper}>
-        <Header logoPath="images/kasa_logo.svg" />
+        <Header logoPath="/images/kasa_logo.svg" />
         <ApartmentsContext.Provider value={apartmentsData}>
           <main className={styles[`main--${modifier}`]}>{children}</main>
         </ApartmentsContext.Provider>

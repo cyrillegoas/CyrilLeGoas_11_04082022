@@ -18,7 +18,7 @@ export const Accordion = ({ name, children }) => {
           {name}
           <img
             className={styles.accordion__arrow}
-            src="images/arrow.svg"
+            src="/images/arrow.svg"
             alt=""
           />
         </span>

@@ -4,7 +4,7 @@ import { KasaAboutContent } from "../components/KasaAboutContent";
 
 export const About = (props) => (
   <Layout>
-    <Banner image="images/background2.png" />
+    <Banner image="/images/background2.png" />
     <KasaAboutContent />
   </Layout>
 );
