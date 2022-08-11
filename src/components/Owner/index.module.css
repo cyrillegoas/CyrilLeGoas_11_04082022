@@ -17,3 +17,14 @@
   object-fit: cover;
   border-radius: 50%;
 }
+
+@media screen and (max-width: 768px) {
+  .owner__name {
+    font-size: 0.75rem;
+  }
+
+  .owner__picture {
+    width: 2rem;
+    height: 2rem;
+  }
+}

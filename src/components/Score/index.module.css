@@ -2,3 +2,12 @@
   display: flex;
   gap: 0.625rem;
 }
+
+@media screen and (max-width: 768px) {
+  .score {
+    gap: 0.3125rem;
+  }
+  .score__star {
+    width: 0.9375rem;
+  }
+}

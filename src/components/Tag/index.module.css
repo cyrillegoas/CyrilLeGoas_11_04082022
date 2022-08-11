@@ -14,3 +14,12 @@
   display: grid;
   place-content: center;
 }
+
+@media screen and (max-width: 768px) {
+  .tag {
+    min-width: 5.25rem;
+    height: 1.125rem;
+    font-size: 0.625rem;
+    border-radius: 5px;
+  }
+}
