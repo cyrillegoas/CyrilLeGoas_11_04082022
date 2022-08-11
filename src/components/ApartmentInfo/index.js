@@ -24,7 +24,7 @@ export const ApartmentInfo = () => {
           </h3>
           <div className={styles.apartmentInfo__tags}>
             {ApartmentDetails.tags.map((tag) => (
-              <Tag name={tag} />
+              <Tag key={tag} name={tag} />
             ))}
           </div>
         </div>
