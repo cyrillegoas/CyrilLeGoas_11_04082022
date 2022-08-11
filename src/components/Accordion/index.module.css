@@ -7,7 +7,10 @@
   background-color: var(--primary);
   border-radius: 10px;
   width: 100%;
-  padding: 0.625rem 0.625rem 0.625rem 1.25rem;
+  height: 2.9375rem;
+  line-height: 1;
+  padding-left: 1.25rem;
+  padding-right: 0.625rem;
   border: 0;
   font-size: 1.5rem;
   cursor: pointer;
@@ -47,4 +50,28 @@
 
 .accordion--open .accordion__arrow {
   transform: rotate(0deg);
+}
+
+@media screen and (max-width: 768px) {
+  .accordion__btn {
+    border-radius: 5px;
+    height: 1.875rem;
+    font-size: 0.8125rem;
+    padding-left: 0.7rem;
+    padding-right: 0.33rem;
+  }
+
+  .accordion__arrow {
+    width: 1.15rem;
+  }
+
+  .accordion__content {
+    font-size: 0.75rem;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+
+  .accordion--open .accordion__content {
+    padding: 1.125rem 0.625rem;
+  }
 }
