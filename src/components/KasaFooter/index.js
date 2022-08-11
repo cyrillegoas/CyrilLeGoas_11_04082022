@@ -8,7 +8,7 @@ export const KasaFooter = () => (
       alt="logo"
     />
     <p className={styles.footer__smallprint}>
-      <small>© 2020 Kasa. All rights reserved</small>
+      <small>© {new Date().getFullYear()} Kasa. All rights reserved</small>
     </p>
   </footer>
 );
