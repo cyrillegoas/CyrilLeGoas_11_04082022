@@ -3,6 +3,7 @@
   grid-template-columns: 1fr;
   grid-template-rows: 14rem;
   place-content: center;
+  min-width: 280px;
 }
 .banner__image {
   grid-column: 1 / 2;
