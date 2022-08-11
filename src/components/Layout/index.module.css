@@ -5,17 +5,24 @@
 }
 
 .main--home {
-  padding-top: 3.9rem;
+  margin-top: 3.9rem;
   display: flex;
   flex-direction: column;
   gap: 2.7rem;
 }
 
 .main--about {
-  padding-top: 2.75rem;
+  margin-top: 2.75rem;
   display: flex;
   flex-direction: column;
   gap: 1.9rem;
+}
+
+.main--apartment {
+  margin-top: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.875rem;
 }
 
 @media screen and (max-width: 1280px) {

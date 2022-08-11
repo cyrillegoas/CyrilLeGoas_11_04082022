@@ -13,7 +13,7 @@ export const Layout = ({ children }) => {
     modifier = "about";
   } else if (matchPath("/apartment/:apartmentId", location)) {
     modifier = "apartment";
-  } else modifier = "error";
+  } else modifier = "default";
 
   return (
     <>
