@@ -1,5 +1,5 @@
 .accordion {
-  position: relative;
+  min-width: 280px;
 }
 
 .accordion__btn {
