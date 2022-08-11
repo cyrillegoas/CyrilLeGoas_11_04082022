@@ -6,6 +6,7 @@
   justify-content: space-between;
   gap: 4rem;
   margin-bottom: 1.5rem;
+  min-width: 280px;
 }
 
 .apartmentInfo__title {
