@@ -9,7 +9,7 @@ export const Home = (props) => {
   const apartments = useContext(ApartmentsContext);
 
   return (
-    <Layout>
+    <Layout page="home">
       <Banner
         image="/images/background1.png"
         tagline="Chez vous, partout et ailleurs"

@@ -11,7 +11,7 @@ export const Apartment = (props) => {
   const ApartmentDetails = apartments.find((item) => item.id === apartmentId);
 
   return (
-    <Layout>
+    <Layout page="apartment">
       <Slider pictures={ApartmentDetails.pictures} />
       <ApartmentInfo />
     </Layout>
