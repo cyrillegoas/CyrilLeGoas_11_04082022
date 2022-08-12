@@ -5,7 +5,14 @@ export const Score = ({ score, maxScore }) => {
     const modifier = index < score ? "filled" : "empty";
     const imageSrc = `/images/star_${modifier}.svg`;
     const imageAlt = `${modifier} star`;
-    return <img className={styles.score__star} src={imageSrc} alt={imageAlt} />;
+    return (
+      <img
+        className={styles.score__star}
+        src={imageSrc}
+        alt={imageAlt}
+        key={index}
+      />
+    );
   });
 
   return <div className={styles.score}>{stars}</div>;
